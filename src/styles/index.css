@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream-50 text-ink font-body antialiased;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-heading;
+  }
+
+  ::selection {
+    @apply bg-coral/30 text-ink;
+  }
+
+  /* Visible keyboard focus */
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible {
+    outline: 2px solid #1D3FD3;
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+}
+
+@layer components {
+  .container-graab {
+    @apply mx-auto w-full max-w-[1400px] px-6 sm:px-8 lg:px-12;
+  }
+
+  .glass {
+    @apply bg-white/50 backdrop-blur-md border border-white/40;
+  }
+
+  .glass-dark {
+    @apply bg-forest-900/40 backdrop-blur-md border border-white/10;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs sm:text-sm font-semibold uppercase tracking-[0.25em] text-forest-500;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-pill bg-coral px-7 py-3.5 text-sm font-semibold uppercase tracking-wide text-white
+    shadow-lift transition-all duration-300 hover:bg-coral-600 hover:-translate-y-0.5 active:translate-y-0 focus-visible:outline-white;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-pill border-2 border-ink/80 px-7 py-3.5 text-sm font-semibold uppercase tracking-wide text-ink
+    transition-all duration-300 hover:bg-ink hover:text-cream-50 hover:-translate-y-0.5 active:translate-y-0;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-pill px-6 py-3 text-sm font-semibold uppercase tracking-wide text-forest-500
+    transition-all duration-300 hover:bg-forest-50;
+  }
+
+  .section-pad {
+    @apply py-20 sm:py-28 lg:py-32;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .mask-fade-b {
+    mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+  }
+}
+
+/* Reduced motion respected globally */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #F7D2A3;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E5A3A;
+  border-radius: 999px;
+}

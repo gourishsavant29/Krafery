@@ -1,0 +1,33 @@
+{
+  "name": "graab-kombucha",
+  "private": true, 
+  "homepage": "https://www.krafery.com",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "GRAAB Kombucha — premium ecommerce website for Krafery Beverages",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d -dist"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^6.28.0",
+    "framer-motion": "^11.15.0",
+    "lucide-react": "^0.462.0",
+    "swiper": "^11.1.15",
+    "react-hook-form": "^7.53.2",
+    "react-helmet-async": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "vite": "^6.0.1"
+  }
+}
