@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 
-const WHATSAPP_NUMBER = '919731308833'
+const WHATSAPP_NUMBER = '918310942465'
 const DEFAULT_MESSAGE = "Hi GRAAB! I'd like to know more about your kombucha."
 
 export default function FloatingWhatsApp() {

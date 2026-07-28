@@ -95,11 +95,11 @@ export default function Footer() {
             <Newsletter light />
 
             <div className="mt-8 flex flex-col gap-3 text-sm text-cream-100/80">
-              <a href="mailto:hello@graab.in" className="flex items-center gap-2 hover:text-coral">
-                <Mail size={16} /> hello@graab.in
+              <a href="mailto:contact@krafery.com" className="flex items-center gap-2 hover:text-coral">
+                <Mail size={16} /> contact@krafery.com
               </a>
-              <a href="tel:+919731308833" className="flex items-center gap-2 hover:text-coral">
-                <Phone size={16} /> +91 97313 08833
+              <a href="tel:+918310942465" className="flex items-center gap-2 hover:text-coral">
+                <Phone size={16} /> +91 8310942465
               </a>
               <span className="flex items-center gap-2">
                 <MapPin size={16} /> Bengaluru, Karnataka

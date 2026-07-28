@@ -7,8 +7,8 @@ import SectionHeading from '../components/ui/SectionHeading'
 import OrganicBlob from '../components/ui/OrganicBlob'
 
 const contactDetails = [
-  { icon: Mail, label: 'Email', value: 'hello@graab.in', href: 'mailto:hello@graab.in' },
-  { icon: Phone, label: 'Phone', value: '+91 97313 08833', href: 'tel:+919731308833' },
+  { icon: Mail, label: 'Email', value: 'contact@krafery.com', href: 'mailto:contact@krafery.com' },
+  { icon: Phone, label: 'Phone', value: '+91 83109 42465', href: 'tel:+918310942465' },
   { icon: MapPin, label: 'Location', value: 'Bengaluru, Karnataka', href: null },
 ]
 
@@ -32,7 +32,7 @@ export default function Contact() {
     <>
       <SEO
         title="Contact"
-        description="Get in touch with Krafery Beverages — GRAAB Kombucha, Bengaluru. Email hello@graab.in or call +91 97313 08833."
+        description="Get in touch with Krafery Beverages — GRAAB Kombucha, Bengaluru. Email contact@krafery.com or call +91 83109 42465."
         path="/contact"
       />
 

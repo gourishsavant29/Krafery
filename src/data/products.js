@@ -14,9 +14,9 @@ export const products = [
     size: '300ml',
     color: '#F3C245',
     accent: 'golden',
-    image: '/src/assets/images/products/pineapple-kaffir-bottle.png',
+    image: '/src/assets/images/products/pineapple-kaffir.png',
     gallery: [
-      '/src/assets/images/products/pineapple-kaffir-bottle.png',
+      '/src/assets/images/products/pineapple-kaffir.png',
       '/src/assets/images/products/pineapple-kaffir-lifestyle-1.png',
       '/src/assets/images/products/pineapple-kaffir-lifestyle-2.png',
     ],
@@ -52,9 +52,9 @@ export const products = [
     size: '300ml',
     color: '#FF6E63',
     accent: 'coral',
-    image: '/src/assets/images/products/hibiscus-pomegranate-bottle.png',
+    image: '/src/assets/images/products/hibiscus-promograte.png',
     gallery: [
-      '/src/assets/images/products/hibiscus-pomegranate-bottle.png',
+      '/src/assets/images/products/hibiscus-promograte.png',
       '/src/assets/images/products/hibiscus-pomegranate-lifestyle-1.png',
       '/src/assets/images/products/hibiscus-pomegranate-lifestyle-2.png',
     ],

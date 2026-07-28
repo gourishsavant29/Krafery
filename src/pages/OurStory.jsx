@@ -84,15 +84,36 @@ export default function OurStory() {
             >
               <h2 className="font-heading text-3xl font-bold text-ink">How it began</h2>
               <p className="text-base leading-relaxed text-ink/70">
-                Krafery Beverages started with a simple question: why does "healthy" so often
-                mean bland, or worse, dishonest? We set out to brew a kombucha that didn&rsquo;t
-                cut corners — real fermentation, real fruit, real transparency about what goes
-                into every bottle.
+               Why I Started Krafery
+
+For years, my life revolved around food.
+
+As a chef and product developer, I spent countless hours in restaurant kitchens, tasting, creating, and celebrating food. Like many in the hospitality industry, long days often ended with a few beers. Over time, "a few" became a routine.
+
+Eventually, I started noticing the effects. I felt sluggish, my body wasn't recovering the way it used to, and I realized I was putting a lot into creating great food for others while paying less attention to my own health.
+
+That became a turning point.
+
+I wasn't looking for another sugary soft drink or a product that claimed to be healthy without delivering real value. I wanted something refreshing, enjoyable, and rooted in real ingredients.
+
+That's what led me to fermentation.
+
+The more I learned about live cultures, botanicals, fruits, herbs, and gut health, the more I realized that a drink could do more than quench thirst—it could become part of a healthier daily routine.
+
+Krafery was born from that journey.
+
+Our mission isn't to tell people to stop enjoying life. It's to give them a better choice when they reach for a drink.
+
+Every bottle is crafted with purpose—bringing together great taste, thoughtful ingredients, and functional benefits without compromising on quality.
+
+This isn't just about kombucha.
+
+It's about helping people enjoy what they drink while feeling better, one bottle at a time.
+
+Krafery — Crafted for Life.
               </p>
               <p className="text-base leading-relaxed text-ink/70">
-                What began as small test batches in Bengaluru has grown into GRAAB — still
-                brewed by hand, still tasted by the same people who started it, still committed
-                to the same five things that matter.
+               
               </p>
             </motion.div>
           </div>
