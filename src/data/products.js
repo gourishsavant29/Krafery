@@ -11,14 +11,14 @@ export const products = [
       'Bright tropical pineapple blended with aromatic kaffir leaves.',
     description:
       'Bright tropical pineapple blended with aromatic kaffir leaves. Naturally fermented with live cultures for a refreshing, crisp, citrus-inspired kombucha.',
-    size: '300ml',
+    size: '330ml',
     color: '#F3C245',
     accent: 'golden',
-    image: '/src/assets/images/products/pineapple-kaffir.png',
+    image: 'images/products/pineapple-kaffir.png',
     gallery: [
-      '/src/assets/images/products/pineapple-kaffir.png',
-      '/src/assets/images/products/pineapple-kaffir-lifestyle-1.png',
-      '/src/assets/images/products/pineapple-kaffir-lifestyle-2.png',
+      'images/products/pineapple-kaffir.png',
+      'images/products/pineapple-kaffir-lifestyle-1.png',
+      'images/products/pineapple-kaffir-lifestyle-2.png',
     ],
     ingredients: [
       'Filtered Water',
@@ -49,14 +49,14 @@ export const products = [
       'A vibrant fusion of hibiscus petals and juicy pomegranate.',
     description:
       'A vibrant fusion of hibiscus petals and juicy pomegranate creating a refreshing antioxidant-rich kombucha.',
-    size: '300ml',
+    size: '330ml',
     color: '#FF6E63',
     accent: 'coral',
-    image: '/src/assets/images/products/hibiscus-promograte.png',
+    image: 'images/products/hibiscus-promograte.png',
     gallery: [
-      '/src/assets/images/products/hibiscus-promograte.png',
-      '/src/assets/images/products/hibiscus-pomegranate-lifestyle-1.png',
-      '/src/assets/images/products/hibiscus-pomegranate-lifestyle-2.png',
+      'images/products/hibiscus-promograte.png',
+      'images/products/hibiscus-pomegranate-lifestyle-1.png',
+      'images/products/hibiscus-pomegranate-lifestyle-2.png',
     ],
     ingredients: [
       'Filtered Water',

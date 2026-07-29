@@ -6,7 +6,7 @@ export const testimonials = [
     rating: 5,
     quote:
       'The Pineapple & Kaffir Leaves bottle tastes nothing like the mass-market kombuchas I\u2019ve tried. Genuinely crisp, not overly sweet, and I can feel the difference after my morning run.',
-    avatar: '/src/assets/images/testimonials/avatar-1.png',
+    avatar: '/images/testimonials/avatar-1.png',
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const testimonials = [
     rating: 5,
     quote:
       'Hibiscus & Pomegranate is now a permanent fixture in my fridge. Small-batch, honest ingredients, and it actually shows on the label.',
-    avatar: '/src/assets/images/testimonials/avatar-2.png',
+    avatar: '/images/testimonials/avatar-2.png',
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const testimonials = [
     rating: 5,
     quote:
       'Switched from imported kombucha brands to GRAAB and haven\u2019t looked back. The fizz is natural, the flavour is balanced, and it\u2019s brewed right here in Bengaluru.',
-    avatar: '/src/assets/images/testimonials/avatar-3.png',
+    avatar: '/images/testimonials/avatar-3.png',
   },
   {
     id: 4,
@@ -33,6 +33,6 @@ export const testimonials = [
     rating: 4,
     quote:
       'Great gut-friendly alternative to soda. My whole family drinks it now, even my parents who were skeptical about fermented drinks.',
-    avatar: '/src/assets/images/testimonials/avatar-4.png',
+    avatar: '/images/testimonials/avatar-4.png',
   },
 ]

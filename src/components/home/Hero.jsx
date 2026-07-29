@@ -5,8 +5,8 @@ import Button from '../ui/Button'
 import OrganicBlob from '../ui/OrganicBlob'
 import BubbleField from '../ui/BubbleField'
 
-const BOTTLE_IMG = '/src/assets/images/hero/Graab bottles.png'
-
+const BOTTLE_IMG = '/images/hero/Graab bottles.png'
+  
 export default function Hero() {
   const ref = useRef(null)
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start start', 'end start'] })

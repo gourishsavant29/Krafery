@@ -68,7 +68,7 @@ export default function OurStory() {
             <motion.div variants={fadeUp} initial="hidden" whileInView="show" viewport={viewportOnce}>
               <div className="relative aspect-[4/5] overflow-hidden rounded-blob shadow-lift">
                 <img
-                  src="/src/assets/images/brewing/graab-scoby-jars.png"
+                  src="/images/brewing/graab-scoby-jars.png"
                   alt="Organic tea and SCOBY cultures used to brew GRAAB kombucha"
                   className="h-full w-full object-cover"
                 />

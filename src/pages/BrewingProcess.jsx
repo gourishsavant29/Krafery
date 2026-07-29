@@ -39,7 +39,7 @@ export default function BrewingProcess() {
           <motion.div variants={fadeUp} initial="hidden" whileInView="show" viewport={viewportOnce} className="relative aspect-square">
             <div className="absolute inset-0 rounded-organic bg-gradient-to-br from-coral-500/20 via-golden-400/15 to-forest-400/20" />
             <img
-              src="/src/assets/images/brewing/graab-fermentation-tanks.png"
+              src="/images/brewing/graab-fermentation-tanks.png"
               alt="GRAAB kombucha fermentation vessels"
               className="relative z-10 h-full w-full object-contain p-10"
             />

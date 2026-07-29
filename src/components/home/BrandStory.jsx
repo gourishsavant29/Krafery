@@ -20,7 +20,7 @@ export default function BrandStory() {
         >
           <div className="absolute inset-6 rounded-organic border-2 border-dashed border-forest-500/30" />
           <img
-            src="/src/assets/images/hero/graab-brewing-lifestyle.png"
+            src="/images/hero/graab-brewing-lifestyle.png"
             alt="GRAAB kombucha brewing process — organic tea and SCOBY"
             className="relative z-10 h-full w-full rounded-blob object-cover shadow-lift"
           />
